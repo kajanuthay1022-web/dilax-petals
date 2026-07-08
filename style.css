@@ -1071,3 +1071,105 @@ color:#f7d27d;
 font-size:14px;
 
 }
+/* Measurement Guide */
+
+.measurement-guide{
+
+max-width:500px;
+margin:25px auto;
+
+background:#fff3d6;
+
+padding:25px;
+
+border-radius:20px;
+
+border-left:5px solid #d4af37;
+
+box-shadow:0 8px 20px rgba(0,0,0,0.10);
+
+text-align:left;
+
+}
+
+
+.measurement-guide h3{
+
+text-align:center;
+
+color:#8b1e3f;
+
+font-size:22px;
+
+margin-bottom:15px;
+
+}
+
+
+.measurement-guide p{
+
+font-size:15px;
+
+line-height:1.6;
+
+margin-bottom:15px;
+
+color:#5a0f25;
+
+}
+
+
+.measurement-guide b{
+
+color:#8b1e3f;
+
+font-size:17px;
+
+}
+/* Measurement Guide Image */
+
+.guide-image{
+
+max-width:500px;
+
+margin:20px auto;
+
+background:white;
+
+padding:15px;
+
+border-radius:20px;
+
+border:2px solid #d4af37;
+
+box-shadow:0 8px 20px rgba(0,0,0,0.12);
+
+}
+
+
+.guide-image h3{
+
+color:#8b1e3f;
+
+margin-bottom:15px;
+
+text-align:center;
+
+}
+
+
+.guide-image img{
+
+width:80%;
+
+max-width:350px;
+
+height:auto;
+
+display:block;
+
+margin:auto;
+
+border-radius:15px;
+
+}
