@@ -1184,3 +1184,464 @@ margin-top:10px;
 text-align:center;
 
 }
+/* DILAX PETALS Logo */
+
+.logo{
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.logo img{
+    width:150px;
+    height:150px;
+    object-fit:contain;
+    background:transparent;
+    display:block;
+}
+
+
+/* Loader Logo */
+
+.loader-logo{
+    width:180px;
+    height:180px;
+    background:transparent;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    overflow:visible;
+}
+
+
+.loader-logo img{
+    width:170px;
+    height:170px;
+    object-fit:contain;
+    display:block;
+    position:relative;
+    top:-16px;
+}
+.brand-name{
+    text-align:center;
+    margin-top:10px;
+}
+
+.brand-name h1{
+    font-family:'Brush Script MT', 'Segoe Script', cursive;
+    font-size:38px;
+    font-weight:500;
+    letter-spacing:2px;
+    color:#5a0f25;
+}
+
+.brand-name p{
+    font-family:'Georgia', serif;
+    font-size:16px;
+    font-style:italic;
+    letter-spacing:1px;
+    color:#d4af37;
+    margin-top:5px;
+}
+/* =========================
+   DILAX PETALS BRAND STYLE
+   ========================= */
+
+.brand-name{
+    text-align:center;
+    margin-top:10px;
+}
+
+
+.brand-name h1{
+    font-family:'Brush Script MT','Segoe Script',cursive;
+    font-size:38px;
+    font-weight:500;
+    letter-spacing:2px;
+    color:#5a0f25;
+    margin:0;
+}
+
+
+.brand-name p{
+    font-family:'Georgia',serif;
+    font-size:16px;
+    font-style:italic;
+    letter-spacing:1px;
+    color:#d4af37;
+    margin-top:5px;
+}
+
+
+.brand-tagline{
+    text-align:center;
+    font-family:'Georgia',serif;
+    font-size:16px;
+    color:#3b1b24;
+    margin-top:12px;
+}
+
+
+.location{
+    text-align:center;
+    font-family:'Georgia',serif;
+    font-size:14px;
+    color:#5a0f25;
+    margin-top:5px;
+}
+/* DILAX PETALS Luxury Brand Name */
+
+.brand-name{
+    text-align:center;
+    margin-top:12px;
+}
+
+
+.brand-name h1{
+    font-family:"Brush Script MT","Segoe Script","Lucida Handwriting",cursive;
+    font-size:52px;
+    font-weight:600;
+    letter-spacing:3px;
+    color:#d4af37;
+    margin:0;
+    text-shadow:0 2px 4px rgba(90,15,37,0.3);
+}
+
+
+/* DILAX PETALS Premium Gold 3D Logo Text */
+
+.brand-name{
+    text-align:center;
+    margin-top:12px;
+}
+
+
+.brand-name h1{
+    font-family:"Brush Script MT","Segoe Script","Lucida Handwriting",cursive;
+    font-size:55px;
+    font-weight:700;
+    letter-spacing:3px;
+
+    background:linear-gradient(
+        45deg,
+        #8b5a00,
+        #ffd700,
+        #fff2a8,
+        #d4af37,
+        #ffcc33
+    );
+
+    -webkit-background-clip:text;
+    -webkit-text-fill-color:transparent;
+
+    text-shadow:
+        2px 3px 2px rgba(90,15,37,0.35),
+        0 0 10px rgba(212,175,55,0.7);
+
+    margin:0;
+}
+
+
+.brand-name p{
+    font-family:"Georgia",serif;
+    font-size:19px;
+    font-style:italic;
+    letter-spacing:2px;
+
+    color:#c2185b;
+
+    text-shadow:
+        1px 1px 2px rgba(0,0,0,0.2);
+
+    margin-top:8px;
+}
+
+
+.brand-tagline{
+    text-align:center;
+    font-family:"Georgia",serif;
+    font-size:18px;
+    color:#5a0f25;
+    margin-top:15px;
+}
+
+
+.location{
+    text-align:center;
+    font-family:"Georgia",serif;
+    font-size:16px;
+    color:#5a0f25;
+    margin-top:8px;
+}
+
+
+.brand-tagline{
+    text-align:center;
+    font-family:"Georgia",serif;
+    font-size:18px;
+    color:#5a0f25;
+    margin-top:15px;
+}
+
+
+.location{
+    text-align:center;
+    font-family:"Georgia",serif;
+    font-size:16px;
+    color:#5a0f25;
+    margin-top:8px;
+}
+/* Floating Lotus Petals Background */
+
+body{
+    position:relative;
+    overflow-x:hidden;
+}
+
+
+body::before,
+body::after{
+    content:"🌸";
+    position:fixed;
+    font-size:80px;
+    opacity:0.15;
+    z-index:-1;
+    animation:petalFloat 10s infinite ease-in-out;
+}
+
+
+body::before{
+    top:20%;
+    left:5%;
+}
+
+
+body::after{
+    bottom:15%;
+    right:5%;
+    content:"🌺";
+    animation-delay:3s;
+}
+
+
+@keyframes petalFloat{
+
+    0%{
+        transform:translateY(0) rotate(0deg);
+    }
+
+    50%{
+        transform:translateY(-30px) rotate(20deg);
+    }
+
+    100%{
+        transform:translateY(0) rotate(0deg);
+    }
+
+}
+/* Luxury Hero Section */
+
+.hero{
+    min-height:450px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+
+    background:
+    linear-gradient(
+    rgba(90,15,37,0.65),
+    rgba(90,15,37,0.65)
+    ),
+    url("images/hero/bridal.jpg");
+
+    background-size:cover;
+    background-position:center;
+
+    border-radius:20px;
+    margin:20px;
+}
+
+
+.hero-content h2{
+
+    font-family:"Georgia",serif;
+    font-size:42px;
+    color:#ffd700;
+    letter-spacing:2px;
+
+    text-shadow:
+    2px 3px 5px #000;
+
+}
+
+
+.hero-content p{
+
+    color:white;
+    font-size:20px;
+    margin:20px 0;
+
+}
+
+
+.btn{
+
+    display:inline-block;
+    padding:14px 30px;
+
+    background:#d4af37;
+    color:#5a0f25;
+
+    border-radius:30px;
+
+    font-weight:bold;
+    text-decoration:none;
+
+    box-shadow:0 5px 15px rgba(0,0,0,0.3);
+
+    transition:0.3s;
+}
+
+
+.btn:hover{
+
+    transform:scale(1.08);
+
+}
+/* DILAX PETALS Service Cards */
+
+.service-section{
+    text-align:center;
+    padding:50px 20px;
+}
+
+
+.service-section h2{
+
+    font-family:Georgia,serif;
+    font-size:38px;
+    color:#5a0f25;
+    margin-bottom:35px;
+
+}
+
+
+
+.cards{
+
+    display:flex;
+    justify-content:center;
+    gap:25px;
+    flex-wrap:wrap;
+
+}
+
+
+
+.card{
+
+    width:280px;
+
+    background:
+    linear-gradient(
+    145deg,
+    #fffaf3,
+    #fff0f5
+    );
+
+    border:2px solid #d4af37;
+
+    border-radius:25px;
+
+    padding:30px 20px;
+
+    box-shadow:
+    0 10px 25px rgba(90,15,37,0.15);
+
+    transition:0.4s;
+
+}
+
+
+
+.card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:
+    0 15px 35px rgba(212,175,55,0.45);
+
+}
+
+
+
+.icon{
+
+    font-size:45px;
+    margin-bottom:15px;
+
+}
+
+
+
+.card h3{
+
+    color:#5a0f25;
+    font-size:25px;
+    margin-bottom:15px;
+
+}
+
+
+
+.card p{
+
+    color:#3b1b24;
+    line-height:1.8;
+    font-size:16px;
+
+}
+
+
+
+.beauty{
+
+    background:#fff5f8;
+
+}
+/* Footer Services Text */
+
+.footer-services{
+    display:block;
+    color:#ffffff;
+    font-size:16px;
+    line-height:2;
+    text-align:center;
+    visibility:visible;
+    opacity:1;
+}
+.footer-services p{
+    display:block;
+    color:#ffffff;
+    font-size:16px;
+    margin:8px 0;
+    opacity:1;
+    visibility:visible;
+}
+/* Footer Location & Contact Text Fix */
+
+.premium-footer p{
+    color:#ffffff;
+    font-size:16px;
+    line-height:1.8;
+    text-align:center;
+    opacity:1;
+    visibility:visible;
+    display:block;
+}
+
+
+.premium-footer p::first-letter{
+    opacity:1;
+}
